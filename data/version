@@ -15,10 +15,10 @@ VSVersionInfo(
               StringTable(
                   "040904b0",
                   [
-                      StringStruct("CompanyName", "Echo Tech"),
+                      StringStruct("CompanyName", "Leap Tech"),
                       StringStruct("FileDescription", "About Provide a visual interface to make working with hexo easier!"),
                       StringStruct("InternalName", "Hexo Tool"),
-                      StringStruct("LegalCopyright", "Copyright © Echo Tech 2025"),
+                      StringStruct("LegalCopyright", "Copyright © Leap Tech 2025"),
                       StringStruct("OriginalFilename", "HexoTool.exe"),
                       StringStruct("ProductName", "Hexo Tool"),
                       StringStruct("ProductVersion", "0.0.0.1")

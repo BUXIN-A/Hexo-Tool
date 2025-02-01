@@ -1,0 +1,22 @@
+{
+    "title": "Website title",
+    "subtitle": "Website subtitle",
+    "description": "Website Description",
+    "keywords": "Website keywords",
+    "author": "Website author",
+    "language": "Website language",
+    "timezone": "Site time zone",
+    "url": "Website address",
+    "permalink": "Website permalink format",
+    "permalink_defaults": "Default value for site permalink",
+    "pretty_urls:": "Website permalink beautification",
+    "trailing_index": "Whether to add index.html to the end of a permalink",
+    "trailing_html": "Whether to add .html to the end of a permalink",
+    "source_dir": "Site source files directory",
+    "public_dir": "The website generates a directory of files",
+    "tag_dir": "Website tag Directory",
+    "archive_dir": "Website Archive Directory",
+    "category_dir": "Website Classification Directory",
+    "code_dir": "Website Code Directory",
+    "i18n_dir": "Website Internationalization Directory"
+}

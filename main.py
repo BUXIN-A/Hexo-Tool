@@ -14,6 +14,8 @@ import time
 import librarys.C_json as C_json
 import librarys.C_canvas as C_canvas
 
+import project as one
+
 # initialize
 theme_list = ['dark', 'light', 'system']
 with open('data\\language\\main\\{0}'.format(C_json.json_read('data\\config\\data.json', 'language')), 'r', encoding='utf-8') as f:
@@ -167,7 +169,17 @@ def delete_project():
                 RElistbox(listbox)
         except Exception as e:
             maliang.TkMessage(message=e)
-    
+
+def open_project():
+    if len(listbox.curselection()) == 0:
+        maliang.TkMessage(message=language['root.version.open.empty'])
+    else:
+        selected = listbox.get(listbox.curselection())
+        try:
+            one.ProjectWindow(os.path.join('hexo\\versions', selected))
+        except Exception as e:
+            maliang.TkMessage(message=e)
+
 #tkinter&maliang
 root = maliang.Tk((1200, 800), (int(C_json.json_read('data\\config\\data.json', 'main_x')), int(C_json.json_read('data\\config\\data.json', 'main_y'))), title="HEXO Tool")
 root.at_exit(exit, ensure_destroy=False)
@@ -186,7 +198,7 @@ version = maliang.Canvas(master=root, auto_update=True, width=1100, height=800, 
 version.pack(side='left', expand=True)
 maliang.Button(master=version, position=(10, 10), text=language['root.version.create'], size=(140, 40), command=lambda:Wversion_create_project(language))
 maliang.Button(master=version, position=(10, 60), text=language['root.version.delete'], size=(140, 40), command=lambda:delete_project())
-maliang.Button(master=version, position=(10, 110), text=language['root.version.open'], size=(140, 40), command=lambda:print('open'))
+maliang.Button(master=version, position=(10, 110), text=language['root.version.open'], size=(140, 40), command=lambda:open_project())
 maliang.Button(master=version, position=(10, 160), text=language['root.version.refresh'], size=(140, 40), command=lambda:RElistbox(listbox))
 scrollbar = tk.Scrollbar(version)
 scrollbar.pack(side=tk.RIGHT, fill=tk.Y)

@@ -12,6 +12,7 @@
     "root.version.delete.empty": "请选择要删除的项目",
     "root.version.refresh": "刷新",
     "root.version.open": "打开项目",
+    "root.version.open.empty": "请选择要打开的项目",
     "root.setting": "设置",
     "root.setting.language": "语言",
     "root.setting.language.tip": "你的语言已切换为{0}",

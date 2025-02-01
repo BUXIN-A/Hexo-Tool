@@ -57,7 +57,7 @@ tag_map: null
 theme: landscape
 time_format: HH:mm:ss
 timezone: ''
-title: '111'
+title: 'hexo'
 titlecase: false
 updated_option: mtime
 url: http://example.com

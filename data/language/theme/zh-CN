@@ -17,5 +17,6 @@
     "tag_dir": "网站标签目录",
     "archive_dir": "网站归档目录",
     "category_dir": "网站分类目录",
-    "code_dir": "网站代码目录"
+    "code_dir": "网站代码目录",
+    "i18n_dir": "网站国际化目录",
 }

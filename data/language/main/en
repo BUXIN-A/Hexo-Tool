@@ -12,6 +12,7 @@
     "root.version.delete.empty": "Please select the project to delete",
     "root.version.refresh": "Refresh",
     "root.version.open": "Open",
+    "root.version.open.empty": "Please select the project to open",
     "root.setting": "Setting",
     "root.setting.language": "Language",
     "root.setting.language.tip": "Your language has been switched to {0}",
