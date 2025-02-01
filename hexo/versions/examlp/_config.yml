@@ -1,0 +1,63 @@
+archive_dir: archives
+author: John Doe
+category_dir: categories
+category_map: null
+code_dir: downloads/code
+date_format: YYYY-MM-DD
+default_category: uncategorized
+default_layout: post
+deploy:
+  type: ''
+description: ''
+exclude: null
+external_link:
+  enable: true
+  exclude: ''
+  field: site
+filename_case: 0
+future: true
+highlight:
+  auto_detect: false
+  hljs: false
+  line_number: true
+  tab_replace: ''
+  wrap: true
+i18n_dir: :lang
+ignore: null
+include: null
+index_generator:
+  order_by: -date
+  path: ''
+  per_page: 10
+keywords: null
+language: en
+meta_generator: true
+new_post_name: :title.md
+pagination_dir: page
+per_page: 10
+permalink: :year/:month/:day/:title/
+permalink_defaults: null
+post_asset_folder: false
+pretty_urls:
+  trailing_html: true
+  trailing_index: true
+prismjs:
+  line_number: true
+  preprocess: true
+  tab_replace: ''
+public_dir: public
+relative_link: false
+render_drafts: false
+skip_render: null
+source_dir: source
+subtitle: ''
+syntax_highlighter: highlight.js
+tag_dir: tags
+tag_map: null
+theme: landscape
+time_format: HH:mm:ss
+timezone: ''
+title: '111'
+titlecase: false
+updated_option: mtime
+url: http://example.com

@@ -1,0 +1,21 @@
+{
+    "title": "网站标题",
+    "subtitle": "网站副标题",
+    "description": "网站描述",
+    "keywords": "网站关键词",
+    "author": "网站作者",
+    "language": "网站语言",
+    "timezone": "网站时区",
+    "url": "网站地址",
+    "permalink": "网站永久链接格式",
+    "permalink_defaults": "网站永久链接默认值",
+    "pretty_urls:": "网站永久链接美化",
+    "trailing_index": "网站永久链接结尾是否添加index.html",
+    "trailing_html": "网站永久链接结尾是否添加.html",
+    "source_dir": "网站源文件目录",
+    "public_dir": "网站生成文件目录",
+    "tag_dir": "网站标签目录",
+    "archive_dir": "网站归档目录",
+    "category_dir": "网站分类目录",
+    "code_dir": "网站代码目录"
+}
