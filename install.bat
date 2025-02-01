@@ -1,1 +1,1 @@
-pyinstaller main.py -w --icon img\hexo.ico --add-data "data/*;data" --add-data "hexo/*;hexo" --add-data "img/*;img" --add-data "library/*;library" -F --clean --version-file data\version
+pyinstaller main.py -w --icon img\hexo.ico -D --clean --version-file version

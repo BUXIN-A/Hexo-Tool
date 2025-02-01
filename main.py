@@ -57,7 +57,7 @@ def exit() -> None:
 # 获取程序版本
 def get_product_version(key):
     try:
-        with open('data\\version', 'r', encoding='utf-8') as f:
+        with open('version', 'r', encoding='utf-8') as f:
             version_info = f.read()
             start_marker = f'StringStruct("{key}", "'
             start_index = version_info.find(start_marker)

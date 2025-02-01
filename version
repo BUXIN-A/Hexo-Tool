@@ -21,8 +21,8 @@ VSVersionInfo(
                       StringStruct("LegalCopyright", "Copyright © Leap Tech 2025"),
                       StringStruct("OriginalFilename", "HexoTool.exe"),
                       StringStruct("ProductName", "Hexo Tool"),
-                      StringStruct("ProductVersion", "0.0.0.1")
-                      StringStruct("FileVersion", "0.0.0.1"),
+                      StringStruct("ProductVersion", "0.0.0.3"),
+                      StringStruct("FileVersion", "0.0.0.3"),
                   ]
               )
           ]
